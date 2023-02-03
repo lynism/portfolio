@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+/*fonts*/
+@font-face {
+    src: url("../fonts/Fontspring-DEMO-theseasons-bd.otf");
+    font-family: 'Seasons Bold';
+}
+@font-face {
+    src: url("../fonts/Fontspring-DEMO-theseasons-bdit.otf");
+    font-family: 'Seasons Bold Italic';
+}
+@font-face {
+    src: url("../fonts/Fontspring-DEMO-theseasons-it.otf");
+    font-family: 'Seasons Italic';
+}
+@font-face {
+    src: url("../fonts/Fontspring-DEMO-theseasons-lt.otf");
+    font-family: 'Seasons Light';
+}
+@font-face {
+    src: url("../fonts/Fontspring-DEMO-theseasons-ltit.otf");
+    font-family: 'Seasons Light Italic';
+}
+@font-face {
+    src: url("../fonts/Fontspring-DEMO-theseasons-reg.otf");
+    font-family: 'Seasons Regular';
+}
+@font-face {
+    src: url("../fonts/Quackey Regular.otf");
+    font-family: 'Quackey';
+}
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+h1{
+	font-family: 'Seasons Bold';
+}
+h2,h5{
+	font-family: 'Seasons Regular';
+}
+h3{
+	font-family: 'Seasons Light Italic';
+}
+h4,h6,p{
+	font-family: 'Seasons Light';
+}
+span {
+	font-family: 'Karla';
+}
+	
+
+
+
+/*body*/
+body {
+	background: url("../img/bg-01.png") fixed center;
+}
+
+
+/*banner*/
+.banner h1{
+	letter-spacing: 3px;
+	font-size: 100px;
+}
+.banner h2{
+	letter-spacing: 5px;
+	font-size: 80px;
+}
+.banner h3{
+	font-size: 50px;
+}
+.banner i{
+	font-size: 30px;
+	padding: 10px 20px;
+}
+.srolldown i{
+	font-size: 25px;
+	padding: 0px 20px;
+}
+
+
+/*slogan*/
+.slogan{
+	height: 200px;
+}
+.slogan p{
+	font-size: 50px;
+}
+
+
+/*about*/
+.about{
+	height: 700px;
+}
+.about img{
+	height: inherit;
+	border-top-left-radius: 300px;
+	border-top-right-radius: 300px;
+}
+.doimauchu {
+	color: #D9C397;
+}
+.tren{
+	height: 50px;
+}
+.duoi{
+	height: 50px;
+}
+.tren h5{
+	color: #D9C397;
+}
+
+
+/*skill*/
+.skill{
+	height: 650px;
+	border-bottom: 1px solid Black;
+}
+.skill-job{
+	width: 100%;
+	grid-column: 2;
+	margin-top: -10px;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+	color: #D9C397;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.details p{
+	font-family: 'Quackey';
+}
+.bar{
+    position: relative;
+    border: 2px solid #D9C397;
+    border-radius: 20px;
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #D9C397;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+#photoshop{
+    animation: photoshop-fill 2s forwards;
+}
+
+/* scrolling-text */
+
+
+@keyframes photoshop-fill{
+    100%{
+        width: 85%;
+    }
+}
+#illustrator{
+    animation: illustrator-fill 2s forwards;
+}
+@keyframes illustrator-fill{
+    100%{
+        width: 90%;
+    }
+}
+#photographic{
+    animation: photographic-fill 2s forwards;
+}
+@keyframes photographic-fill{
+    100%{
+        width: 90%;
+    }
+}
+#html{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 75%;
+    }
+}
+#css{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#java{
+    animation: java-fill 2s forwards;
+}
+@keyframes java-fill{
+    100%{
+        width: 60%;
+    }
+}
+#jquery{
+    animation: jquery-fill 2s forwards;
+}
+@keyframes jquery-fill{
+    100%{
+        width: 60%;
+    }
+}
+#ux_ui{
+    animation: ux_ui-fill 2s forwards;
+}
+@keyframes ux_ui-fill{
+    100%{
+        width: 80%;
+    }
+}
+
+/*footer*/
+footer{
+	background-color: #212121;
+	color: white;
+	padding: 30px 50px;
+	margin-top: 10px;
+}
+/*
+.footer p{
+	font-family: 'Quackey';
+}
+*/
+
+ul {
+	list-style: none;
+	font-family: 'Quackey';
+}
+
+li a{
+	color: #fff;
+}
+
+li a:hover{
+	text-decoration: none;
+	color: rgb(140, 140, 140);
+}
+h1.footer-text {
+	padding-top: 20px;
+	font-size: 100px;
+}
+
+i {
+	padding: 4px 10px;
+}
+
+#myBtn{
+	border: solid 1.5px #C7EBCF;
+	border-radius: 50%;
+	background: #C7EBCF;
+	padding: 5px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+
+/* Project */
+/*Services*/
+/*Banner*/
+
+.banser h2{
+	letter-spacing: 2px;
+	font-size: 130px;
+}
+.banser i{
+	font-size: 30px;
+	padding: 100px 100px;
+}
+.srolldown2{
+	padding-left: 40px;
+}
+.srolldown2 i{
+	font-size: 25px;
+	padding: 0px 20px;
+}
+
+/*slogan*/
+.sloganser{
+	height: 300px;
+}
+.sloganser p{
+	font-size: 50px;
+}
+.sloganser hr{
+	width: 20%;
+	border: none;
+	border-bottom: 1px solid Black;
+}
+
+/*Baogom*/
+.baogom{
+	height: 400px;
+}
+.baogom hr{
+	width: 10%;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+.baogom row{
+	height: 400px;
+}
+
+/*Process*/
+.process hr{
+	width: 10%;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+span.line   {
+	padding-right: 50px;
+}
+
+/* contact */
+.wrapper {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.wrapper h5 {
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.wrapper i{
+	font-size: 30px;
+}
+
+h5.message {
+	text-align: center;
+	text-transform: uppercase;
+}
+/* form */
+.main {
+	padding: 0 0 50px;
+}
+form {
+	max-width: 600px;
+	width: 90%;
+	margin: 17vh auto 0 auto;
+	padding: 40px;
+	box-sizing: border-box;
+  }
+  
+label{
+	display: block;
+  	margin: 20px 0;
+	font-family: 'Quackey';
+}
+  input, textarea {
+	background: transparent;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	outline: none;
+	resize: none;
+	border: none;
+	border-bottom: 1px solid rgb(91, 91, 91);
+  }
+  
+  input[type="text"]:focus, textarea:focus {
+	border-bottom: 1px solid rgb(5, 5, 5);;
+  }
+  
+  textarea::-webkit-scrollbar {
+	width: 4px;
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+	background-color: rgb(5, 5, 5);
+  }
+  
+  .btn-send {
+	text-align: center;
+  }
+  
+  input[type="submit"] {
+	font-family: 'Quackey';
+	margin-top: 30px;
+	width: 90%;
+	max-width: 200px;
+	background: #000;
+	font-size: 16px;
+	border-radius: 30px;
+	color: #fff;
+	cursor: pointer;
+  }
+
+  h1.text {
+	  text-align: center;
+	  text-transform: uppercase;
+  }
+  .icon {
+	  text-align: center;
+	  letter-spacing: 30px;
+	  padding-bottom: 100px;
+  }
